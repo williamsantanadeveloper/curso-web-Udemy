@@ -13,3 +13,5 @@ delete valores[0] // Deletar algum elemento específico
 console.log(valores)
 
 console.log(typeof valores);
+
+// Array é representado com []
