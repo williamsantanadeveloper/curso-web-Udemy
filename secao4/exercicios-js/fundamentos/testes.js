@@ -1,11 +1,7 @@
-let nome = {};
-nome.escola = "IDFG";
-nome.Aluno = "William";
-nome.PrecoUniforme = 90
+let valor = [2, 5, "Vasco", 7];
 
-console.log(nome)
+valor.push(1);
+console.log(valor)
+valor.pop()
 
-const Nome = {
-    
-
-}
+console.log(valor)
