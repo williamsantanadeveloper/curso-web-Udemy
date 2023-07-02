@@ -1,10 +1,10 @@
-// let valor = [2, 5, "Vasco", 7];
+let valor = [2, 5, "Vasco", 7];
 
-// valor.push(1);
-// console.log(valor)
-// valor.pop()
+valor.push(1);
+console.log(valor)
+valor.pop()
 
-// console.log(valor)
+console.log(valor)
 
 function divisao(a, b) {
     console.log(a / b)
@@ -23,3 +23,12 @@ outraDivisao(10, 4)
 
 const outraDivisao2 = (m,n) => m / n
 console.log(outraDivisao2(10, 10))
+
+const n1 = [] 
+for (let i = 0; i < 20; i++) {
+    n1.push(function(){
+        console.log(i)
+    })
+}
+n1 [2]()
+n1 [15]()
