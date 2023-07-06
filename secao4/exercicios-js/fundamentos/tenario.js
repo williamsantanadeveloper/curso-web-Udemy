@@ -1,4 +1,5 @@
-const resultado = nota => nota >= 7 ? "Aprovado": "Reprovado" // 1º estrutura relacional nota >= 7 / 2º Se for verdadeiro retorna verdadeiro "Aprovado" / 3º Se for falso retorna "Reprovado"
+const resultado = nota => nota >= 7 ? "Aprovado": "Reprovado" 
+// 1º estrutura relacional nota >= 7 / 2º Se for verdadeiro retorna verdadeiro "Aprovado" / 3º Se for falso retorna "Reprovado"
 // Estrutura nesse exemplo: nota >= 7 ? "Aprovado": "Reprovado"
 
 console.log(resultado(7.1));

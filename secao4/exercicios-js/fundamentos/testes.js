@@ -32,3 +32,38 @@ for (let i = 0; i < 20; i++) {
 }
 n1 [2]()
 n1 [15]()
+
+const pessoa = {}
+pessoa.nome = "William"
+console.log(pessoa)
+
+const person = {}
+    person.name= "Antônio",
+    person.age= 18,
+    person.adress= "Bairro industrial"
+  
+  
+  console.log(person)
+
+const pessoa = {
+  Name: "william"
+}
+console.log(pessoa)
+
+const indi = {
+  "name": "William"
+}
+console.log(indi)
+
+function soma(a, b) {
+  console.log(a + b)
+}
+soma(2, 3)
+
+function imprimirSoma(a,b) {
+  return a + b
+}
+console.log(imprimirSoma(4, 2))
+
+const soma2 = (a, b) => (a + b)
+console.log(soma(2, 10))
