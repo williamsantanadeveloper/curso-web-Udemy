@@ -61,10 +61,14 @@ function somar(a, b) {
 
 console.log(soma(2, 4))
 
+// && ?? ? : == ===
 
+// total: 5meses
+// 1- logica 2meses
+// 2- html + css + js 1.5 meses 
+// 3- react 15 dias
+// 4- python 1mes
 
-
-
-
-
-
+// const nome = "Antonio"
+// nome == "Antonio" ? "Meu nome É Antônio" : "Meu nome NÃO É Antônio"
+// console.log('Antônio' && 'Meu nome é Antonio')
