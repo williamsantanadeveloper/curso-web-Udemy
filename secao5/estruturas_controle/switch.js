@@ -23,3 +23,9 @@ imprimirResultado(8.5)
 imprimirResultado(6)
 imprimirResultado(3)
 imprimirResultado()
+
+/*
+const nome = "Antonio"
+nome == "Antonio" ? "Meu nome É Antônio" : "Meu nome NÃO É Antônio"
+console.log('Antônio' && 'Meu nome é Antonio')
+*/

@@ -1,4 +1,4 @@
-// Função em JS é First-Class Object (Citizens)
+ // Função em JS é First-Class Object (Citizens)
 // Higher-oder function
 
 // criar de forma literal
@@ -50,3 +50,21 @@ function soma(a, b) {
 soma(2, 3)(4)
 const cincoMais = soma (2, 3)
 cincoMais(4)
+//
+const somar = (a, b) => {
+    return a + b
+}
+
+function somar(a, b) {
+    return a+b
+}
+
+console.log(soma(2, 4))
+
+
+
+
+
+
+
+
