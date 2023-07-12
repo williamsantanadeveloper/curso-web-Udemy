@@ -32,3 +32,14 @@ function soma3(a = 1, b = 1, c = 1) {
     return a + b + c
 }
 console.log(soma3(), soma3(3), soma3(1,2,3), soma3(0,0,0))
+
+// && ?? ? : == ===
+
+// total: 5meses
+// 1- logica 2meses
+// 2- html + css + js 1.5 meses 
+// 3- react 15 dias
+// 4- python 1mes
+//const nome = "Antonio"
+//nome == "Antonio" ? "Meu nome É Antônio" : "Meu nome NÃO É Antônio"
+//console.log('Antônio' && 'Meu nome é Antonio')
