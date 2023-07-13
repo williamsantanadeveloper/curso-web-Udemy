@@ -1,7 +1,7 @@
-// const soma = (a, b) => {
-//     return a + b
-// }
-// console.log(soma(2, 4))
+const soma = (a, b) => {
+    return a + b
+}
+console.log(soma(2, 4))
 
 const pessoa = {
     saudacao: 'Bom dia!',
