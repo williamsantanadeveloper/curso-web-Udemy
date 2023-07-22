@@ -1,5 +1,5 @@
 function Carro(velocidadeMaxima = 200, delta = 5) {
-    // atricuto privado
+    // atributo privado
     let velocidadeAtual = 0 // pertence apenas ao escopo da função
     // metrodo publico // Função responsável por acrescentar a velocidade atual
     this.acelerar = function () {

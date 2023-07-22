@@ -36,6 +36,15 @@
 // }
 // imprimirAreaCirculo()
 
-let numeros = [1,2,3,4,5,6]
+let numeros = [1, 2, 3, 4, 5, 6]
 const maiorNumero = Math.max(numeros)
 console.log(maiorNumero)
+
+const resultadoNotas = (nota) => {
+    switch (Math.floor(nota)) {
+        case nota >= 8: console.log('Aprovado')
+        break
+        default: console.log('Reprovado')
+    }
+}
+resultadoNotas(8)
