@@ -1,5 +1,5 @@
 function classificacaoDoTriangulo(c1, c2, c3) {
-    equilatero = (c1 == c2 && c1 == c3) ? 'Equilatero' : 'Não equilátero'
+    let equilatero = (c1 == c2 && c1 == c3) ? 'Equilatero' : 'Não equilátero'
     console.log(equilatero)
 }
 
