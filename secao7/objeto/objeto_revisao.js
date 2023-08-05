@@ -35,9 +35,9 @@ carro.proprietario.endereco.numero = 1000
 carro['proprietario']['endereco']['logradouro'] = 'Av Gigante'
 console.log(carro)
 
-delete carro.proprietario.endereco
-delete carro.condutores
-delete carro.calcular_valor_seguro
+// delete carro.proprietario.endereco
+// delete carro.condutores
+// delete carro.calcular_valor_seguro
 console.log(carro)
 console.log(carro.condutores)
 console.log(carro.condutores.length)
