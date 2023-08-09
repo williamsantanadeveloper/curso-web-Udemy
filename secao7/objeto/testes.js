@@ -3,18 +3,18 @@ fabricantes.nomes = ['Willams', 'Mercedes', 'Ferrari']
 fabricantes.nomes_dos_pilotos = ['Hamilton', 'Alonso']
 console.log(fabricantes)
 
-function funcionario (nome) {
+function funcionario(nome) {
     this.nome = nome
     console.log(`O nome do meu funcionário é ${this.nome}`)
 }
 const chamar = new funcionario('William')
 console.log(chamar)
 
-function pproduto (salario, imposto) {
+function pproduto(salario, imposto) {
     return {
         salario,
         get_salario_com_imposto() {
-            return salario * (1- imposto)
+            return salario * (1 - imposto)
         }
     }
 }

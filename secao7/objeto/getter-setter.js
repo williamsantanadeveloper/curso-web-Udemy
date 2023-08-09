@@ -11,7 +11,7 @@ const sequencia = {
     }
 }
 console.log(sequencia.valor, sequencia.valor)
-sequencia.valor = 1000
-console.log(sequencia.valor, sequencia.valor)
-sequencia.valor = 900
-console.log(sequencia.valor, sequencia.valor)
+
+console.log(Object.keys(sequencia))
+console.log(Object.values(sequencia))
+console.log(Object.entries(sequencia))
