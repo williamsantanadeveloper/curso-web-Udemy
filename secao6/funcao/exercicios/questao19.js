@@ -1,4 +1,4 @@
-function cardapio(codigo, preco) {
+cardapio = (codigo) => {
     switch (codigo) {
         case 100: console.log('Cachorro quente, valor a ser pago é 3 reais')
             break
