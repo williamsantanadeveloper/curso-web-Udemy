@@ -1,6 +1,6 @@
 function aula(nome, video_id) {
     this.nome = nome,
-        this.video_id = video_id
+    this.video_id = video_id
 }
 const aula1 = new aula('Bem-vindo!', 123)
 const aula2 = new aula('Até breve', 456)
