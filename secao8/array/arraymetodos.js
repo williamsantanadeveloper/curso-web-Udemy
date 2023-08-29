@@ -22,5 +22,5 @@ console.log(drivers)
 const things_drivers = drivers.slice(2) // novo array
 console.log(things_drivers)
 
-const things_drivers2 = drivers.slice(1, 4)
+const things_drivers2 = drivers.slice(1, 4) // verstappen não aparece
 console.log(things_drivers2)
