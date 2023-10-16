@@ -8,4 +8,4 @@ function repeticao(repetira, repetidor) {
     return result;
 };
 
-console.log(repeticao(1, 6))
+console.log(repeticao(1, 6));
