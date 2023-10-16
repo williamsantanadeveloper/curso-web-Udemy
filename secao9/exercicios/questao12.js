@@ -6,6 +6,7 @@ const remove_propriety = (object, propriety_name) => {
 };
 
 console.log(remove_propriety({ a: 1, b: 2 }, 'a'));
+
 console.log(remove_propriety({
     id: 20, name: 'caneta', description: 'Não preenchido', adrress: {
         street: 'ABC',
